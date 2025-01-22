@@ -1,0 +1,141 @@
+
+.container {
+    display: flex;
+    background-color: rgb(221, 205, 63);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+    
+
+.card {
+    display: flex;
+    background-color: whitesmoke;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 68%;
+    width: 24%;
+    border-radius: 5%;
+    
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("wallpaper.png");
+    background-size: 93%;
+    background-position: 50%;
+    height: 40%;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 1%;
+    border-radius: 5%;
+
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(221, 205, 63);
+    margin: 5%;
+    margin-bottom: 3%;
+    width: 25%;
+    height:7%;
+    border-radius: 5%;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+
+    
+    
+    
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 34%;
+    background-color: whitesmoke;
+    font-weight: 300;
+    font-size: small;
+    margin-left: 5%;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: whitesmoke;
+    color: rgb(221, 205, 63) ;
+    margin: 5%;
+    font-size: larger;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    Font-style: normal;
+    font-weight: 800;
+}
+
+.lorem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: smaller;
+    font-family: "Figtree", serif;
+    Font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5%;
+    width: 70%;
+    height: 17%;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.perfil {
+    display: inline-block;
+    overflow: hidden;
+    height: 100% ;
+
+
+}
+
+.perfil img {
+    width: 70px;
+    height: 70px;
+    object-fit:cover;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.nomeperfil {
+    margin-left: 10px;
+
+}
+
